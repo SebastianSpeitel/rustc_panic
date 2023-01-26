@@ -1,64 +1,64 @@
     Checking rustc_panic v0.1.0 (/home/satan/projects/temp/rustc_panic)
 thread 'rustc' panicked at 'index out of bounds: the len is 0 but the index is 0', compiler/rustc_hir_typeck/src/method/probe.rs:1765:14
 stack backtrace:
-   0:     0x7fc8735202f0 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h69bcc05d91223f49
-   1:     0x7fc873579fee - core::fmt::write::hef48842516af87de
-   2:     0x7fc873511d15 - <unknown>
-   3:     0x7fc8735200b5 - <unknown>
-   4:     0x7fc873522eaf - <unknown>
-   5:     0x7fc873522bea - std::panicking::default_hook::hd02a6e4ded2d38ae
-   6:     0x7fc873d25427 - <unknown>
-   7:     0x7fc873523679 - std::panicking::rust_panic_with_hook::he465dfd121afbaa6
-   8:     0x7fc8735233f7 - <unknown>
-   9:     0x7fc87352079c - <unknown>
-  10:     0x7fc873523112 - rust_begin_unwind
-  11:     0x7fc8734e6603 - core::panicking::panic_fmt::hbec3034b96e5393d
-  12:     0x7fc8734e6752 - core::panicking::panic_bounds_check::h79c3ed5639eee6da
-  13:     0x7fc87426896b - <unknown>
-  14:     0x7fc874263958 - <unknown>
-  15:     0x7fc8742634c2 - <rustc_hir_typeck[d32f43373bdf4418]::method::probe::ProbeContext>::assemble_extension_candidates_for_all_traits
-  16:     0x7fc8742f5bb5 - <unknown>
-  17:     0x7fc874132f80 - <rustc_hir_typeck[d32f43373bdf4418]::fn_ctxt::FnCtxt>::get_conversion_methods
-  18:     0x7fc8741587fb - <rustc_hir_typeck[d32f43373bdf4418]::fn_ctxt::FnCtxt>::suggest_deref_ref_or_into
-  19:     0x7fc87412d9a1 - <rustc_hir_typeck[d32f43373bdf4418]::fn_ctxt::FnCtxt>::emit_coerce_suggestions
-  20:     0x7fc8742c286d - <unknown>
-  21:     0x7fc87414fbd2 - <unknown>
-  22:     0x7fc874190b9e - <unknown>
-  23:     0x7fc874138e2b - <unknown>
-  24:     0x7fc874139e9b - <unknown>
-  25:     0x7fc8742e0c1f - <unknown>
-  26:     0x7fc874293a54 - <unknown>
-  27:     0x7fc8753f8612 - <unknown>
-  28:     0x7fc8755ded47 - <unknown>
-  29:     0x7fc8756cce4e - <unknown>
-  30:     0x7fc87444fea9 - <unknown>
-  31:     0x7fc87445bfa6 - <unknown>
-  32:     0x7fc8753fabb8 - <unknown>
-  33:     0x7fc8755fc51e - <unknown>
-  34:     0x7fc8756ccbae - <unknown>
-  35:     0x7fc8752bbdb3 - <unknown>
-  36:     0x7fc874445f41 - <rustc_hir_analysis[f489c8429913bc5b]::collect::CollectItemTypesVisitor as rustc_hir[4c2ef855f552f78]::intravisit::Visitor>::visit_trait_item
-  37:     0x7fc8743e2bc4 - <unknown>
-  38:     0x7fc874443c3d - <unknown>
-  39:     0x7fc8753f9ecd - <unknown>
-  40:     0x7fc8755e36be - <unknown>
-  41:     0x7fc8756c5b7b - <unknown>
-  42:     0x7fc8743e214c - <unknown>
-  43:     0x7fc8743cc5db - <unknown>
-  44:     0x7fc874370159 - rustc_hir_analysis[f489c8429913bc5b]::check_crate
-  45:     0x7fc873df4ff1 - rustc_interface[8424728ff989f12]::passes::analysis
-  46:     0x7fc87542cba2 - <unknown>
-  47:     0x7fc87565c11e - <unknown>
-  48:     0x7fc8756cd1c0 - <unknown>
-  49:     0x7fc873caa319 - <unknown>
-  50:     0x7fc873cf7ab9 - <unknown>
-  51:     0x7fc873c8ac92 - <unknown>
-  52:     0x7fc873ce6268 - <unknown>
-  53:     0x7fc873cadb50 - <unknown>
-  54:     0x7fc873c91384 - <unknown>
-  55:     0x7fc87352d093 - <unknown>
-  56:     0x7fc87333096a - <unknown>
-  57:     0x7fc8733aef9c - <unknown>
+   0:     0x7fca513202f0 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h69bcc05d91223f49
+   1:     0x7fca51379fee - core::fmt::write::hef48842516af87de
+   2:     0x7fca51311d15 - <unknown>
+   3:     0x7fca513200b5 - <unknown>
+   4:     0x7fca51322eaf - <unknown>
+   5:     0x7fca51322bea - std::panicking::default_hook::hd02a6e4ded2d38ae
+   6:     0x7fca51b25427 - <unknown>
+   7:     0x7fca51323679 - std::panicking::rust_panic_with_hook::he465dfd121afbaa6
+   8:     0x7fca513233f7 - <unknown>
+   9:     0x7fca5132079c - <unknown>
+  10:     0x7fca51323112 - rust_begin_unwind
+  11:     0x7fca512e6603 - core::panicking::panic_fmt::hbec3034b96e5393d
+  12:     0x7fca512e6752 - core::panicking::panic_bounds_check::h79c3ed5639eee6da
+  13:     0x7fca5206896b - <unknown>
+  14:     0x7fca52063958 - <unknown>
+  15:     0x7fca520634c2 - <rustc_hir_typeck[d32f43373bdf4418]::method::probe::ProbeContext>::assemble_extension_candidates_for_all_traits
+  16:     0x7fca520f5bb5 - <unknown>
+  17:     0x7fca51f32f80 - <rustc_hir_typeck[d32f43373bdf4418]::fn_ctxt::FnCtxt>::get_conversion_methods
+  18:     0x7fca51f587fb - <rustc_hir_typeck[d32f43373bdf4418]::fn_ctxt::FnCtxt>::suggest_deref_ref_or_into
+  19:     0x7fca51f2d9a1 - <rustc_hir_typeck[d32f43373bdf4418]::fn_ctxt::FnCtxt>::emit_coerce_suggestions
+  20:     0x7fca520c286d - <unknown>
+  21:     0x7fca51f4fbd2 - <unknown>
+  22:     0x7fca51f90b9e - <unknown>
+  23:     0x7fca51f38e2b - <unknown>
+  24:     0x7fca51f39e9b - <unknown>
+  25:     0x7fca520e0c1f - <unknown>
+  26:     0x7fca52093a54 - <unknown>
+  27:     0x7fca531f8612 - <unknown>
+  28:     0x7fca533ded47 - <unknown>
+  29:     0x7fca534cce4e - <unknown>
+  30:     0x7fca5224fea9 - <unknown>
+  31:     0x7fca5225bfa6 - <unknown>
+  32:     0x7fca531fabb8 - <unknown>
+  33:     0x7fca533fc51e - <unknown>
+  34:     0x7fca534ccbae - <unknown>
+  35:     0x7fca530bbdb3 - <unknown>
+  36:     0x7fca52245f41 - <rustc_hir_analysis[f489c8429913bc5b]::collect::CollectItemTypesVisitor as rustc_hir[4c2ef855f552f78]::intravisit::Visitor>::visit_trait_item
+  37:     0x7fca521e2bc4 - <unknown>
+  38:     0x7fca52243c3d - <unknown>
+  39:     0x7fca531f9ecd - <unknown>
+  40:     0x7fca533e36be - <unknown>
+  41:     0x7fca534c5b7b - <unknown>
+  42:     0x7fca521e214c - <unknown>
+  43:     0x7fca521cc5db - <unknown>
+  44:     0x7fca52170159 - rustc_hir_analysis[f489c8429913bc5b]::check_crate
+  45:     0x7fca51bf4ff1 - rustc_interface[8424728ff989f12]::passes::analysis
+  46:     0x7fca5322cba2 - <unknown>
+  47:     0x7fca5345c11e - <unknown>
+  48:     0x7fca534cd1c0 - <unknown>
+  49:     0x7fca51aaa319 - <unknown>
+  50:     0x7fca51af7ab9 - <unknown>
+  51:     0x7fca51a8ac92 - <unknown>
+  52:     0x7fca51ae6268 - <unknown>
+  53:     0x7fca51aadb50 - <unknown>
+  54:     0x7fca51a91384 - <unknown>
+  55:     0x7fca5132d093 - <unknown>
+  56:     0x7fca5113096a - <unknown>
+  57:     0x7fca511aef9c - <unknown>
   58:                0x0 - <unknown>
 
 error: internal compiler error: unexpected panic
@@ -109,30 +109,30 @@ error: internal compiler error: TyKind::Error constructed but no error reported
 
 thread 'rustc' panicked at 'Box<dyn Any>', compiler/rustc_errors/src/lib.rs:1553:13
 stack backtrace:
-   0:     0x7fc8735202f0 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h69bcc05d91223f49
-   1:     0x7fc873579fee - core::fmt::write::hef48842516af87de
-   2:     0x7fc873511d15 - <unknown>
-   3:     0x7fc8735200b5 - <unknown>
-   4:     0x7fc873522eaf - <unknown>
-   5:     0x7fc873522bea - std::panicking::default_hook::hd02a6e4ded2d38ae
-   6:     0x7fc873d25427 - <unknown>
-   7:     0x7fc873523679 - std::panicking::rust_panic_with_hook::he465dfd121afbaa6
-   8:     0x7fc8766cd7e3 - <unknown>
-   9:     0x7fc8766ca276 - <unknown>
-  10:     0x7fc873c6bf06 - <unknown>
-  11:     0x7fc8766bc6f6 - <unknown>
-  12:     0x7fc8766c38b3 - <unknown>
-  13:     0x7fc8766bf962 - <rustc_errors[92bf182022e92a05]::HandlerInner as core[e1ac74ef75e5f3cf]::ops::drop::Drop>::drop
-  14:     0x7fc873c9eb98 - <unknown>
-  15:     0x7fc873ca03a8 - <unknown>
-  16:     0x7fc873c8fa99 - <unknown>
-  17:     0x7fc873c8b057 - <unknown>
-  18:     0x7fc873ce6268 - <unknown>
-  19:     0x7fc873cadb50 - <unknown>
-  20:     0x7fc873c91384 - <unknown>
-  21:     0x7fc87352d093 - <unknown>
-  22:     0x7fc87333096a - <unknown>
-  23:     0x7fc8733aef9c - <unknown>
+   0:     0x7fca513202f0 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h69bcc05d91223f49
+   1:     0x7fca51379fee - core::fmt::write::hef48842516af87de
+   2:     0x7fca51311d15 - <unknown>
+   3:     0x7fca513200b5 - <unknown>
+   4:     0x7fca51322eaf - <unknown>
+   5:     0x7fca51322bea - std::panicking::default_hook::hd02a6e4ded2d38ae
+   6:     0x7fca51b25427 - <unknown>
+   7:     0x7fca51323679 - std::panicking::rust_panic_with_hook::he465dfd121afbaa6
+   8:     0x7fca544cd7e3 - <unknown>
+   9:     0x7fca544ca276 - <unknown>
+  10:     0x7fca51a6bf06 - <unknown>
+  11:     0x7fca544bc6f6 - <unknown>
+  12:     0x7fca544c38b3 - <unknown>
+  13:     0x7fca544bf962 - <rustc_errors[92bf182022e92a05]::HandlerInner as core[e1ac74ef75e5f3cf]::ops::drop::Drop>::drop
+  14:     0x7fca51a9eb98 - <unknown>
+  15:     0x7fca51aa03a8 - <unknown>
+  16:     0x7fca51a8fa99 - <unknown>
+  17:     0x7fca51a8b057 - <unknown>
+  18:     0x7fca51ae6268 - <unknown>
+  19:     0x7fca51aadb50 - <unknown>
+  20:     0x7fca51a91384 - <unknown>
+  21:     0x7fca5132d093 - <unknown>
+  22:     0x7fca5113096a - <unknown>
+  23:     0x7fca511aef9c - <unknown>
   24:                0x0 - <unknown>
 
 note: the compiler unexpectedly panicked. this is a bug.
